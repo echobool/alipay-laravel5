@@ -119,4 +119,15 @@ class AlipaySdk
         $response = $this->aop->Close($RequestBuilder);
         return $response;
     }
+
+    /**
+     * 异步通知验证
+     * @param $requestData
+     * @return bool
+     */
+    public function notify($requestData)
+    {
+        $this->aop->writeLog(var_export($requestData,true));
+        return $this->aop->check($requestData);
+    }
 }
