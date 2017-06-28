@@ -46,7 +46,7 @@
 
 ## 用法
 
-#####先将config/alipay-web.php 中各项配置好
+####先将config/alipay-web.php 中各项配置好
 
 ```php
 //文件头use一下
