@@ -32,7 +32,9 @@
     $ composer dump-autoload --optimize
     
 ## 支持
-支付支持表单提交和Curl后台提交方式
+支付支持表单提交和Curl后台提交方式 
+
+当配置文件中 trade_pay_type=>true 时为表单提交 默认CURL提交。
 
 支持交易查询操作
 
