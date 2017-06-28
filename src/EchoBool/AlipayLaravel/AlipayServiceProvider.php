@@ -22,7 +22,7 @@ class AlipayServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/alipay-web.php' => config_path('alipay-web.php'),
+            __DIR__.'/../../config/alipay-web.php' => config_path('alipay-web.php'),
         ]);
     }
 
