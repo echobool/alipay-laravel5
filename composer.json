@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EchoBool\\Alipay\\": "src/EchoBool/AlipayLaravel/"
+            "EchoBool\\AlipayLaravel\\": "src/EchoBool/AlipayLaravel/"
         }
     },
     "minimum-stability": "stable"
