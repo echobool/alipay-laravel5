@@ -1,4 +1,4 @@
-# alipay-laravel5 支付宝电脑网站支付
+# alipayLaravel 支付宝电脑网站支付
 **根据支付宝最新版 电脑网站支付接口SDK 整合laravel5**
 
 
@@ -7,14 +7,14 @@
 首先安装 [Composer](http://getcomposer.org/). 已安装请忽略。
 在 `composer.json` 文件中添加:
 
-    "echobool/alipay-laravel5": "dev-master"
+    "echobool/alipayLaravel": "dev-master"
 
 然后执行composer进行安装:
 
     $ composer update -vvv
 或直接：
 
-    $ composer install "echobool/alipay-laravel5"
+    $ composer require "echobool/alipayLaravel:dev-master"
 
 
 ## 支持
@@ -32,6 +32,9 @@
 
 
 ```php
+//文件头use一下
+use EchoBool\AlipayLaravel\Facades\Alipay;
+
 /**
      * 支付
      * @param Request $request
