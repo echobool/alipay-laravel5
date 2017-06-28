@@ -10,7 +10,7 @@ return [
     //应用ID,您的APPID。
     'app_id' => "",
 
-    //商户私钥
+    //商户私钥 不能用pkcs8.pem中的密钥！！！！！
     'merchant_private_key' => "",
 
     //异步通知地址

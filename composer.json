@@ -5,7 +5,9 @@
         "Laravel 5",
         "Laravel",
         "Alipay",
-        "Alipay SDK"
+        "Alipay SDK",
+        "支付宝",
+        "电脑网站支付"
     ],
     "license": "MIT",
     "authors": [
