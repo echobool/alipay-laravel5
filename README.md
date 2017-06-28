@@ -15,8 +15,22 @@
 或直接：
 
     $ composer require "echobool/alipay-laravel5:dev-master"
+在app.php中加上
 
+    EchoBool\AlipayLaravel\AlipayServiceProvider::class,
+    
+更新配置
 
+    php artisan config:cache
+    
+发布配置文件
+
+    $ php artisan vendor:publish --provider="EchoBool\AlipayLaravel\AlipayServiceProvider"
+
+如果出现 EchoBool\AlipayLaravel\AlipayServiceProvider not found 则运行下面代码再发布
+
+    $ composer dump-autoload --optimize
+    
 ## 支持
 支付支持表单提交和Curl后台提交方式
 
@@ -30,6 +44,7 @@
 
 ## 用法
 
+#####先将config/alipay-web.php 中各项配置好
 
 ```php
 //文件头use一下
