@@ -6,6 +6,7 @@
  * Date: 16/3/30
  * Time: 下午8:55
  */
+namespace EchoBool\AlipayLaravel;
 
 class EncryptParseItem {
 
