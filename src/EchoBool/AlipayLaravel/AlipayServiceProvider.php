@@ -15,6 +15,13 @@ use Illuminate\Support\ServiceProvider;
 class AlipayServiceProvider extends ServiceProvider
 {
     /**
+     * 显示是否延迟提供程序的加载
+     *
+     * @var bool
+     */
+    protected $defer = true;
+    
+    /**
      * Bootstrap the application services.
      *
      * @return void
